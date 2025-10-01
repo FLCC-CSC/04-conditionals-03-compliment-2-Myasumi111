@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Makiko Michelle Yasumi
+# DATE: October 1, 2025
+# BRIEF DESCRIPTION:  This program asks if a user wants a complement and outputs different comments based on the user input.
 
 
 
@@ -15,14 +15,19 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    complement2()
 
+def complement2():
+    choice = input("Would you like a compliment? ")
+    if choice == "yes":
+        print("You have wonderful eyes.")
+    else:
+        print("No compliment for you!")
 
+    print("Thank you for playing.")
 
-
-
-
-
-
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -71,10 +76,6 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
-
-
-
-
+NO
 
 '''
